@@ -10,6 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 connectDB();
 
+app.use(cors());
 app.use(
   cors({
     origin: process.env.FRONTEND_URL,
