@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+/* index.css */
+.bg-green-gradient {
+    background: linear-gradient(135deg, #28a745, #218838);
+}
+
+.bg-blue-gradient {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+.bg-indigo-gradient {
+    background: linear-gradient(135deg, #6610f2, #520dc2);
+}
+
+.bg-green-gradient:hover {
+    background: linear-gradient(135deg, #218838, #28a745);
+}
+
+.bg-blue-gradient:hover {
+    background: linear-gradient(135deg, #0056b3, #007bff);
+}
+
+.bg-indigo-gradient:hover {
+    background: linear-gradient(135deg, #520dc2, #6610f2);
+}
+
+
